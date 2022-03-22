@@ -3,16 +3,16 @@ Tutorial for creating ERD model in MySQL Workbench.
 
 ## 1. Create ERD model
 **2 common ways to create ERD model:**
-- First way: Create tables before (using SQL statements) then create ERD (Database → Reverse Engineer).
-- Second way: Create empty databases then create ERD (Database → Reverse Engineer), you can create tables and their relationship. After that, update all tables and relationships into databases (Database → Forward Engineer).
+- **First way:** Create tables before (using SQL statements) then create ERD (Database → Reverse Engineer).
+- **Second way:** Create empty databases then create ERD (Database → Reverse Engineer), you can create tables and their relationship. After that, update all tables and relationships into databases (Database → Forward Engineer).
 
 *Note:* Prefer to use the Second way. 
 
 **Steps when use second way:**
-- **Step1**: Create empty database, then create ERD (`Databases → Reverse Engineer`).
-- **Step2**: Create tables with all columns except **Foriegn Keys (FK)**. 
-- **Step3**: Create relationship between tables (This creates automatically **FK**).
-- **Step4**: Update table in databases (`Databases → Forward Engineer`)
+- **Step1:** Create empty database, then create ERD (`Databases → Reverse Engineer`).
+- **Step2:** Create tables with all columns except **Foriegn Keys (FK)**. 
+- **Step3:** Create relationship between tables (This creates automatically **FK**).
+- **Step4:** Update table in databases (`Databases → Forward Engineer`)
 
 ## 2. Example to create ERD model
 
