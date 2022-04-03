@@ -17,7 +17,7 @@ Tutorial for creating ERD model in MySQL Workbench.
 ## 2. Example to create ERD model
 
 **Requirement:** Create hospital ERD model base on the figure below and insert the data via `hopsital_insert_data.sql`.
-![img](https://drive.google.com/uc?export=view&id=1Hdwwmpb8O4ABdp_RTTjjcX_H0q8F_ZNm)
+![img](public-imgs/Example_ERD_model.png)
 
 **Follow step-by-step:**
 
